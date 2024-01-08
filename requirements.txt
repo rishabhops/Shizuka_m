@@ -1,7 +1,7 @@
 aiofiles
 aiohttp==3.9.1
-asyncio
-beautifulsoup4
+asyncio==3.4.3
+beautifulsoup4==4.12.2
 dnspython
 ffmpeg-python
 gitpython
@@ -22,4 +22,4 @@ tgcrypto
 unidecode
 yt-dlp==2023.12.30
 youtube-search
-youtube-search-python
+youtube-search-python==1.6.6
