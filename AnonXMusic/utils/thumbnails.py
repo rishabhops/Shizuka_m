@@ -111,7 +111,11 @@ async def get_thumb(videoid):
     font = ImageFont.truetype("AnonXMusic/assets/font.ttf", 30)
     title_font = ImageFont.truetype("AnonXMusic/assets/font3.ttf", 45)
 
-
+    para = textwrap.wrap(clear(title), width=32) 
+        j = 0
+        draw.text(
+            (6, 6), f"{BOT_NAME}", fill="Yellow", font=name_font
+        )
     circle_thumbnail = crop_center_circle(youtube, 400, 20)
     circle_thumbnail = circle_thumbnail.resize((400, 400))
     circle_position = (120, 160)
