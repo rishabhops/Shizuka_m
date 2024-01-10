@@ -13,6 +13,18 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
+# Add Owner Username without @ 
+OWNER_USERNAME = getenv("OWNER_USERNAME", "hlo_papa")
+
+# Get Your bot username
+BOT_USERNAME = getenv("BOT_USERNAME", "VictoriaBot")
+
+# Don't Add style font 
+BOT_NAME = getenv("BOT_NAME", "VICTORIA")
+
+#get Your Assistant User name
+ASSUSERNAME = getenv("ASSUSERNAME" , "VICTORIA_ASS")
+
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -22,7 +34,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = int(getenv("OWNER_ID", 6195725562))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -52,7 +64,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "293c334a2861415197a697b
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 250))
 
 
 # Telegram audio and video file size limit (in bytes)
