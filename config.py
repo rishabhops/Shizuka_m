@@ -11,7 +11,7 @@ API_ID = int(getenv("10248430"))
 API_HASH = getenv("42396a6ff14a569b9d59931643897d0d")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = "5955204118:AAFZSzal2gxbEqjYJqkIv0fP4DMREV2uluI" #getenv("BOT_TOKEN")
 
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME", "thanosceo")
@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/medico07/ABCMUSIC",
+    "https://github.com/rishabhops/alicev3",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
