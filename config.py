@@ -17,10 +17,10 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "thanosceo")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "EvaaxBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "HOTX_MUSIC_BOT")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "๛ᴇ ᴠ ᴀ ᴀ࿐")
+BOT_NAME = getenv("BOT_NAME", "hot x music")
 
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", "SineWy_AsS")
