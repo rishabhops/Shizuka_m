@@ -26,7 +26,7 @@ BOT_NAME = getenv("BOT_NAME", "hot x music")
 ASSUSERNAME = getenv("ASSUSERNAME", "hotxxbabe")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://mariosglade:oUXZsU7YWcPxVFIb@cluster0.bkniog5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://varadezscarl:prothanos@cluster0.pot4al4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 
