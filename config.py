@@ -90,13 +90,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/8f82348a4a5589bfccffd.jpg"
+    "START_IMG_URL", "https://graph.org/file/407b7c3930c1158f1492f.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/fd2d35917fe263c4fc342.jpg"
+    "PING_IMG_URL", "https://graph.org/file/407b7c3930c1158f1492f.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/3c0846f98f8c7d86fb42c.jpg"
-STATS_IMG_URL = "https://graph.org/file/710b60d5d03f162b6a502.jpg"
+STATS_IMG_URL = "https://graph.org/file/407b7c3930c1158f1492f.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
