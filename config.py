@@ -11,10 +11,10 @@ API_ID = 10248430 #int(getenv("10248430"))
 API_HASH = "42396a6ff14a569b9d59931643897d0d"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "5955204118:AAFqmYMlsmxO9-ilcDvXmH9k7UHeVNhXkgw" #getenv("BOT_TOKEN")
+BOT_TOKEN = "6618122929:AAE6A7Tfedxvk9nx3p3PNUuh0SuGPJ6XbHw" #getenv("BOT_TOKEN")
 
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "thanosceo")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Ore_wa_Madara_Uchiha")
 
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME", "HOTX_MUSIC_BOT")
@@ -23,7 +23,7 @@ BOT_USERNAME = getenv("BOT_USERNAME", "HOTX_MUSIC_BOT")
 BOT_NAME = getenv("BOT_NAME", "hot x music")
 
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "hotcbade")
+ASSUSERNAME = getenv("ASSUSERNAME", "Shizuka_Assistant")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://mariosglade:oUXZsU7YWcPxVFIb@cluster0.bkniog5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #getenv("MONGO_DB_URI", None)
@@ -34,7 +34,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 LOGGER_ID = -1001532801531 #int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5470956337))
+OWNER_ID = int(getenv("OWNER_ID", 6203163206))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
